@@ -1,37 +1,3 @@
-# TrustedVPN.sol
-
-TrustedVPN contract TrustedVPN protocol will be your number 1 VPN crypto platform. RFI tokenomics, with the added function of auto-liquidity generating protocol for token holders. First, the dev has minted the tokens - sent the balance to DxSale for fair launch - and then burned the remainder of the tokens. Dev had to partake in presale. Second, utilized the DxSale protocol to foster trust in the community by auto-locking liquidity for 4 years. Simple tokenomics and elegant design and production of token information has catered to the overall success of the project. 100% community owned and driven - no rug is possible. TrustedVPN to the moon.
-
-
-
-Skip to content
-Pull requests
-Issues
-Marketplace
-Explore
-@TrustedVPN
-
-
-70
-443
-
-    556
-
-Code
-Issues 58
-Pull requests 4
-Actions
-Projects
-Wiki
-Security
-
-    Insights
-
-
-Latest commit 152e907 on Mar 3
-History
-1 contributor
-1166 lines (997 sloc) 42.3 KB
 /**
  *Submitted for verification at BscScan.com on 2021-03-01
 */
@@ -751,8 +717,8 @@ contract TrustedVPN is Context, IERC20, Ownable {
     uint256 private _rTotal = (MAX - (MAX % _tTotal));
     uint256 private _tFeeTotal;
 
-    string private _name = "TrustedVPN";
-    string private _symbol = "TrustedVPN";
+    string private _name = "SafeMoon";
+    string private _symbol = "SAFEMOON";
     uint8 private _decimals = 9;
     
     uint256 public _taxFee = 5;
@@ -1197,17 +1163,5 @@ contract TrustedVPN is Context, IERC20, Ownable {
 
 }
 
-    © 2021 GitHub, Inc.
-    Terms
-    Privacy
-    Security
-    Status
-    Docs
 
-    Contact GitHub
-    Pricing
-    API
-    Training
-    Blog
-    About
 
